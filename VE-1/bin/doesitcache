@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/vinz7/Vin7-4/VE-1/bin/python3
+=======
+#!/home/vincenzo/Vin7-4/VE-1/bin/python3
+>>>>>>> 9f51b17718dcaa6c41da46bfa38ec48296e5a3b1
 # -*- coding: utf-8 -*-
 import re
 import sys
