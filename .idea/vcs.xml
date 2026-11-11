@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AgentCommitMessageProject"><![CDATA[{
+  "mode": "CUSTOM",
+  "instruction": "Avoid overly verbose descriptions or unnecessary details.$GIT_BRANCH_NAME"
+}]]></component>
   <component name="GitSharedSettings">
     <option name="synchronizeBranchProtectionRules" value="false" />
   </component>
