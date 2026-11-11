@@ -4,20 +4,12 @@
 ##########################   LOGIC & BIT OPERATIONS
 
 
-# file
-# OP
-# SU
-# OPERATORI.txt
-# ci
-# va
-# di
-# sintesi
-# veloce
+# file OP SU OPERATORI.txt ci va di sintesi veloce
 
 ####################################################################################
 
 
-# NON SI UTILIZZANO floats
+# >>>>>>>>>     >>>>>>>>     NON SI UTILIZZANO floats
 
 
 # condizioni equivalenti
@@ -27,7 +19,12 @@ var = 10
 print(var > 0)  # True
 print(not (var <= 0))  # True
 
+
+
+
+
 ################ Leggi di De Morgan
+
 
 # la negazione di una congiunzione è la disgiunzione delle negazioni
 # la negazione di una disgiunzione è la congiunzione delle negazioni
@@ -38,6 +35,8 @@ q = 1
 print(not (p and q) == (not p) or (not q))
 
 print(not (p or q) == (not p) and (not q))
+
+
 
 #########################
 
@@ -83,6 +82,10 @@ bitneg = ~i
 
 print(~i)  # output -16
 
+
+
+
+
 ######################   deal with single bits
 
 
@@ -93,11 +96,17 @@ mnot = ~m
 #####################################   Binary shift ( a  dx |>>|  oppure  sx |<<| )
 
 
+
+
+
 print("\n-------------------------\n")
 print("\n-------------------------\n")
 print("\n-------------------------\n")
 
 v = 17
+x = 3
+y = 2
+
 
 vdx = v >> x     #  >> > calcola
 # v // (2 elevato a x)

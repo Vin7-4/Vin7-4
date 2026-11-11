@@ -86,235 +86,87 @@ print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESS
 #
 # ###############################################################################
 #
-# >> >> TIPI
-# DI
-# STREAM << <<
+# >> >> TIPI   DI  STREAM << <<
 #
-# sono
-# di
-# 3
-# tipi
-# la
-# declaration
-# è
-# nella
-# lib[sys]
-#
-# al
-# massimo
-# import sys
-#
-# dall
-# 'inizio e sei ok!
+# sono di 3 tipi la declaration è nella lib[sys] mass import  dall'inizio e sei ok!
 #
 # #################################################################################
 #
+
+
 #
 # -------------------------------------------------------------------------------------     sys.stdin
 #
-# stdin( as standard
-# input)
+# stdin( as standard input) t std stream is normal associat with the keyboard, pre-open for reading and regarded as t primary
+# data source for the running programs; the well - known input() function reads data from stdin by default.
 #
-# the
-# stdin
-# stream is normally
-# associated
-# with the keyboard, pre-open for reading and regarded as the
-# primary
-# data
-# source
-# for the running programs;
-# the
-# well - known
-# input()
-# function
-# reads
-# data
-# from stdin by
+
 #
-# default.
-#
+
+
 # -------------------------------------------------------------------------------------     sys.stdout
 #
-# stdout( as standard
-# output)
-#
-# the
-# stdout
-# stream is normally
-# associated
-# with the screen, pre-open for writing, regarded as the
-# primary
-# target
-# for outputting data by the running program;
-# the
-# well - known
-# print()
-# function
-# outputs
-# the
-# data
-# to
-# the
-# stdout
-# stream.
+# stdout( as standard output )
+# the stdout stream is normally associated with the screen, pre-open for writing, regarded as the
+# primary target for outputting data by the running program; the well - known print() function
+# outputs the data to the stdout stream.
 #
 # -------------------------------------------------------------------------------------     sys.stderr
 #
-# stderr( as standard
-# error
-# output)
+# stderr( as standard error output )
 #
-# the
-# stderr
-# stream is normally
-# associated
-# with the screen, pre-open for writing, regarded as the
-# primary
-# place
-# where
-# the
-# running
-# program
-# should
-# send
-# information
-# on
-# the
-# errors
-# encountered
-# during
-# its
-# work;
-# we
-# haven
-# 't presented any method to send the data to this stream (we will do it soon, we promise)
-# the
-# separation
-# of
-# stdout(useful
-# results
-# produced
-# by
-# the
-# program) from the stderr
+# the stderr stream is normally associated with the screen, pre-open for writing, regarded as the primary place
+# where the running program should send information
+# on the errors encountered during its work;
+# we haven 't presented any method to send the data to this stream (we will do it soon, we promise)
+# the separation of stdout(useful results produced by the program) from the stderr
 #
 # (error messages, undeniably useful but does not provide results)
-# gives
-# the
-# possibility
-# of
-# redirecting
-# these
-# two
-# types
-# of
-# information
-# to
-# the
-# different
-# targets.
+# gives the possibility of redirecting these two types of information to the different targets.
 #
 # ################################################################################
 #
+
+
+
 # ########################################   selected constants useful for detecting stream errors:
 #
 #
 # ########################################
 #
 #
-# ---------------------------------------------------------------------      errno.EACCES → Permission
-# denied
+# ---------------------------------------------------------------------      errno.EACCES → Permission denied
+
+# The error occurs when you try, for example, to open a file with the read only attribute for writing.
 #
-# The
-# error
-# occurs
-# when
-# you
-# try, for example, to open a file with the read only attribute for writing.
+
+#---------------------------------------------------------------      errno.EBADF → Bad file number
+
+# The error occurs when you try, for example, to operate with an unopened stream.
 #
-# ---------------------------------------------------------------------      errno.EBADF → Bad
-# file
-# number
+# ---------------------------------------------------------------------      errno.EEXIST → File exists
+
+# The error occurs when you try, for example, to rename a file with its previous name.
 #
-# The
-# error
-# occurs
-# when
-# you
-# try, for example, to operate with an unopened stream.
+# ---------------------------------------------------------------------      errno.EFBIG → File too large
 #
-# ---------------------------------------------------------------------      errno.EEXIST → File
-# exists
+# The error occurs when you try to create a file that is larger than the maximum allowed by the operating system.
 #
-# The
-# error
-# occurs
-# when
-# you
-# try, for example, to rename a file with its previous name.
+# ---------------------------------------------------------------------      errno.EISDIR → Is a directory
+
+# The error occurs when you try to treat a directory name as the name of an ordinary file.
 #
-# ---------------------------------------------------------------------      errno.EFBIG → File
-# too
-# large
+# ---------------------------------------------------------------------      errno.EMFILE → Too many open files
 #
-# The
-# error
-# occurs
-# when
-# you
-# try to create a file that is larger than the maximum allowed by the operating system.
+# The error occurs when you try to simultaneously open more streams than acceptable for your operating system.
 #
-# ---------------------------------------------------------------------      errno.EISDIR → Is
-# a
-# directory
+# ---------------------------------------------------------------------      errno.ENOENT → No such file or directory
 #
-# The
-# error
-# occurs
-# when
-# you
-# try to treat a directory name as the name of an ordinary file.
+# The error occurs when  you try to access a non-existent file / directory.
 #
-# ---------------------------------------------------------------------      errno.EMFILE → Too
-# many
-# open
-# files
+# ---------------------------------------------------------------------      errno.ENOSPC → No space left on device
 #
-# The
-# error
-# occurs
-# when
-# you
-# try to simultaneously open more streams than acceptable for your operating system.
-#
-# ---------------------------------------------------------------------      errno.ENOENT → No
-# such
-# file or directory
-#
-# The
-# error
-# occurs
-# when
-# you
-# try to access a non-existent file / directory.
-#
-# ---------------------------------------------------------------------      errno.ENOSPC → No
-# space
-# left
-# on
-# device
-#
-# The
-# error
-# occurs
-# when
-# there is no
-# free
-# space
-# on
-# the
-# media.
+# The error occurs when there is no free space on the media.
 
 
 
@@ -382,16 +234,8 @@ except Exception as exc:
         print("The error number is:", exc.errno)
 
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Key takeaways  exrc 3 ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼")
-print("\n▼￫￫￫￫￫  What is the expected output of the following code,\n assuming")
-
-# that
-# the
-# file
-# named
-# file
-# does
-#
-# not exist?  ￩￩￩￩￩￩￩￩▼\n")
+print("\n▼￫￫￫￫￫  What is the expected output of the following code,\n assuming", end=(" "))
+print("that the file named file does not exist?  ￩￩￩￩￩￩￩￩▼\n")
 
 import errno
 
@@ -403,9 +247,10 @@ except IOError as error:
     if error.errno == errno.ENOENT:
         print("absent")
     else:
-        print("unknown")
+        print("Unknown error.")
 
-#  -----output :  absent   >  IOError   error.errno == errno.ENOENT: no entry  file non esiste, quindi print("absent")
+#  -----output :  absent
+#        >  IOError   error.errno == errno.ENOENT: no entry  file non esiste, quindi print("absent")
 
 
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Working with real files ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼\n")

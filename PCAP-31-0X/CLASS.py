@@ -257,6 +257,8 @@ for a in a1: print(a.scream())  # e le stampa utilizzando un loop
 # Tweetuuuu
 
 from bs4 import BeautifulSoup
+import requestssdfsd
+
 
 
 def scrape_website(url):
@@ -270,7 +272,7 @@ def scrape_website(url):
         print(f"Error: {e}")
 
 
-scrape_website('https://example.com')
+scrape_website('https://www.youtube.comsdfsdf')
 
 
 
