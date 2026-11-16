@@ -253,7 +253,13 @@ except IOError as error:
 #        >  IOError   error.errno == errno.ENOENT: no entry  file non esiste, quindi print("absent")
 
 
+
+
+
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Working with real files ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼\n")
+
+
+
 
 # Opening tzop.txt in read mode, returning it as a file object:
 stream = open("C:\\PycharmProjects\\Py3\\filePCEP.txt", "rt", encoding="utf-8")
@@ -262,6 +268,9 @@ print('Lettura file :\n', stream.read())  # printing the content of the file
 stream.close()
 
 #  print(stream.close())  restituisce  None
+
+
+
 
 
 
@@ -305,8 +314,14 @@ except IOError as ex_io:
 
 # strerr(ex_io.errno)
 
+
+
+
+
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Working with real files ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼")
 print("▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫     workdir   >>>  readline()  C:\\PycharmProjects\\Py3\\py1.txt   ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩\n")
+
+
 
 # The method tries to read a complete line of text from the file
 # and returns it as a string in the case of success. Otherwise, it returns an empty string.
@@ -332,9 +347,16 @@ except IOError as e:
     print("I/O error occurred:",
           strerror(e.errno))  # nel caso ---output : I/O error occurred: No such file or directory
 
+
+
+
+
+
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Working with real files ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼")
 print(
     "▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫     workdir   >>>  readlines()  C:\\PycharmProjects\\Py3\\filePCEP.txt   ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩\n")
+
+
 
 #  readelines() (senza arguments) prova a leggere TUTTE  le lines del file
 # returns a list of strings, one element per file line.
