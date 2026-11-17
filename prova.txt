@@ -1,0 +1,7 @@
+linea da  >>>>  main
+
+linea 2   >>>>   main
+
+add line 1   >>>   tmp
+
+add  line 2   >>>  tmp
