@@ -29,71 +29,40 @@ class PcSummary:
 pc_smry1 = PcSummary('ASUS', 'RAZER DeathAdder v2', 'SteelSeries -(it)', 'HP OMEN 16:9 120hz - EneClass=B+')
 pc_smry1.smry_pc()
 #
-# -1.
-# Definiamo
-# l
-# 'inizializzazione della class con un method apposito (__init__) :
+# -1. Definiamo l'inizializzazione della class con un method apposito (__init__) :
 #
 #
-# class [< * Nome
+# class [< * Nome class >]:  # nome della class ha sempre la prima lettera grande
 #
 #
-# class >]:  # nome della class ha sempre la prima lettera grande
+#     def __init__(self, obj1, obj2...)
+#           self.obj1 = obj1
+#           self.obj2 = obj2
+#
+# -2. di solito impostiamo una funzione di presentazione con un print: (in questo caso sfruttiamo l'encapsulation)
 #
 #
-#     def __init__(self, obj1, obj2...
-#
-# )
-# self.obj1 = obj1
-# self.obj2 = obj2
-#
-# -2.
-# di
-# solito
-# impostiamo
-# una
-# funzione
-# di
-# presentazione
-# con
-# un
-# print:
-# (in questo caso sfruttiamo l'encapsulation)
-#
-#
-# def [ <
-#
-#
-#     nome
-# function > (self)]:
-# print(f"Nome : {self.obj1} - Età : {self.obj2}") << < ENCAPSULATION
+# def [ <nome function > (self)]:
+#     print(f"Nome : {self.obj1} - Età : {self.obj2}") << < ENCAPSULATION
 
 # >>>  tecnicamente definiamo l'output della class
 
 
-# -3.
-# utilizziamo
-# la
-#
-#
-# class per eseguire code custom:
+# -3. utilizziamo la class per eseguire code custom:
 #
 #
 # --ex1
 #
-# +++  [ <
-# *Nome
-#
-#
-# class >] = Impiegato
-#
-# var1 = Impiegato([nome], [età])
+# +++  [ < *Nome class >] = Impiegato
+#      var1 = Impiegato([nome], [età])
 #
 # >> > utilizziamo la var con un method (che avrà il nome della def con encapsulation - sfruttiamo il print)
 #
 # [< nome function > (self)] = display
 #
 # var1.display()
+
+
 
 
 class Impiegatizio:
@@ -116,30 +85,16 @@ imp_uff.uff_imp()  # esegue la (class)funzione con i print di presentazione
 imp_uff.ufficio = input("\nDio porco Alice ha cambiato ufficio... inserisci nuovo ufficio di destinazione ?>_ ")
 imp_uff.uff_imp()
 
-# >> >> > '.nome'
-# e
-# '.ufficio'
-# possono
-# essere
-# utilizzati
-# come
-# methods
-# "esterni"
-# '.age'
-# non
-# può
-# essere
-# utilizzato in tal
-# senso
-# perchè
-# è
-# private
-# attribute
-# (si utIlizza il double underscore >> self.__age)
+# >> >> > '.nome' e '.ufficio' possono essere utilizzati come methods "esterni" '.age' non può essere utilizzato in tal senso
+#                                                                                perchè è private attribute (si utIlizza il double underscore >> self.__age)
+
+
 
 print('\n⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈')
 print("------------------   LAB® personal™   --------------------♆")
 print('⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇\n')
+
+
 
 
 class Soccer:
@@ -158,7 +113,13 @@ play1 = Soccer(nome=input("Immetti nome atleta ?>_ "), age=input("Immetti età a
 play1.display()
 
 
+
+
 ######################################################################################## INHERITANCE
+
+
+print("\n------------------   LAB® personal™   INHERITANCE   --------------------♆\n")
+
 
 
 class Veicoli:
@@ -171,8 +132,7 @@ class Auto(Veicoli): pass
 k = Auto()
 k.start_eng()
 
-#  >> >> output: Start
-# engine! Bruuum
+#  >> >> output: Start engine! Bruuum
 
 
 class Persona:
@@ -204,9 +164,13 @@ y.altz('1,90')
 
 
 
+
+
 print('\n⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈⏈')
 print("♆--------------   LAB® personal™   ----------------♆")
 print('⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇⏇\n')
+
+
 
 
 
@@ -239,6 +203,10 @@ print(ga.scream())
 
 
 
+print("\n------------------   LAB® personal™   POLIMORFISMO   --------------------♆\n")
+
+
+
 class Bird:
     def scream(self): return 'Tweetuuuu'
 
@@ -248,31 +216,25 @@ a1 = [Cane("Krull"), Gatto("RedSonic"), Bird()]  # utilizza la lista con le clas
 
 for a in a1: print(a.scream())  # e le stampa utilizzando un loop
 
-# >> > output:
+# >> > output: Bark(so chihuhu Miaooo Tweetuuuu
+
+# from bs4 import BeautifulSoup
+# import requestssdfsd
+
+
+
+# def scrape_website(url):
+#     try:
+#         response = requests.get(url)
+#         response.raise_for_status()
+#         soup = BeautifulSoup(response.text, 'html.parser')
+#         for heading in soup.find_all('h2'):
+#             print(heading.text)
+#     except requests.RequestException as e:
+#         print(f"Error: {e}")
 #
-# Bark(sono
-# un
-# chihuhua)
-# Miaooooo
-# Tweetuuuu
-
-from bs4 import BeautifulSoup
-import requestssdfsd
-
-
-
-def scrape_website(url):
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        for heading in soup.find_all('h2'):
-            print(heading.text)
-    except requests.RequestException as e:
-        print(f"Error: {e}")
-
-
-scrape_website('https://www.youtube.comsdfsdf')
+#
+# scrape_website('https://www.youtube.comsdfsdf')
 
 
 

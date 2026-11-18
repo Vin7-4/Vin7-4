@@ -3,6 +3,8 @@
 
 #                             T U P L E S     &      D I C T I O N A R I E S
 
+####################>>>>>>>>>>>>>>>>  S E T S (SET)   #####################
+
 
 ##################################################################################################
 
@@ -547,22 +549,35 @@ while True:
 ####################>>>>>>>>>>>>>>>>  S E T S (SET)   #####################
 
 
-#    collection NON ordinata    SENZA  key:value
+#    collection NON ordinata    SENZA  key:value   >>>  si usano le graffe
+
+
+
+print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  set type()  ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
+
+
+set1 = {1, 4, "b", False, 'f',5}
+set2 = {5, 'f', True, 1, 'b', 7}
+
+print(type(set1))
 
 
 
 
+print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  set   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
 
 
+print("--  MERGE  :  set1 | set2 = ", set1 | set2)   #   =  {False, 1, 'b', 4, 5, 'f'}   tra True e False prende False (presenza della | )
+
+print("\nIntersection (set2 & set1  --  componenti uguali tra 2 tuples) : ", set2 & set1)  #  {True, 'f', 'b', 5}
+print("\nIntersection (set1 & set2  --  componenti uguali tra 2 tuples) : ", set1 & set2)  #  {True, 'f', 'b', 5}
 
 
-
-
-
-
-
+print("\nTrue | False = ", True | False)    #    False
+print("True & False = ", True & False)    #    True
 
 
 

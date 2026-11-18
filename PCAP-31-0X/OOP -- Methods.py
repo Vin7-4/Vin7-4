@@ -118,13 +118,13 @@ print("\n-------  “ LAB ™ „  --------     3.4.1.1 OOP: Methods  ----------
 
 
 class Classy4:
-    def __init__(self, value):  #  definito come method "particolare"
+    def __init__(self, value):      #  definito come method "particolare"
         self.var = value
 
 
-obj_1 = Classy4("object-classy4-")  #  associa a obj_1 la class inizializzata con func()
+obj_1 = Classy4("object-classy4-")       #  associa a obj_1 la class inizializzata con func()
 
-print(obj_1.var)   #  richiama la var prescelta (che sarebbe la string "object-classy4-")
+print(obj_1.var)          #  richiama la var prescelta (che sarebbe la string "object-classy4-")
 
 
 
@@ -256,13 +256,14 @@ class SuperOne:
     pass
 
 
-class SuperTwo:
+class SuperTwo(SuperOne):
     pass
 
 
-class Sub(SuperOne, SuperTwo):
+class Sub(SuperTwo, SuperOne):
     pass
 
+# cambiando l'ordine degli args di Sub(  >>>  restituisce errore MRO
 
 def printBases(cls):
     print('( ', end='')

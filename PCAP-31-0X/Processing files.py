@@ -353,8 +353,7 @@ except IOError as e:
 
 
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Working with real files ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼")
-print(
-    "▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫     workdir   >>>  readlines()  C:\\PycharmProjects\\Py3\\filePCEP.txt   ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩\n")
+print("▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫     workdir   >>>  readlines()  C:\\PycharmProjects\\Py3\\filePCEP.txt   ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩\n")
 
 
 
@@ -438,7 +437,11 @@ except IOError as e:
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###  Working with real files ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼")
 print("▼￫￫￫￫￫￫￫￫￫    workdir >>>  C:\\PycharmProjects\\Py3\\filePCEP.txt  |  write()    ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩\n")
 
+
+
 #  writing a file opened in read mode won't succeed
+
+
 
 
 from os import strerror
@@ -486,6 +489,8 @@ print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESS
 print("▼￫￫￫￫￫￫￫￫￫    workdir >>>  C:\\PycharmProjects\\Py3\\filePCEP.txt  |  write()    ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩\n")
 
 
+
+
 from os import strerror
 import sys
 
@@ -517,6 +522,9 @@ except IOError as io_err:
 # Amorphous data is data which have no specific shape or form - they are just a series of bytes.
 
 
+
+
+
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###     BYTE ARRAY  >>>    ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼\n")
 
 #  argument della func bytearray(x) è un integer compreso tra 0 e 255   sarebbro bytes
@@ -529,6 +537,10 @@ for i in range(len(data)):
 for b in data:
     print(hex(b), end=' || ')  # ---output di valori esadecimali
     #  0xa || 0x9 || 0x8 || 0x7 || 0x6 || 0x5 || 0x4 || 0x3 || 0x2 || 0x1 ||
+
+
+
+
 
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###     BYTE ARRAY  write   ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼\n")
 
@@ -568,6 +580,11 @@ try:
 except IOError as e:
     print("I/O error occurred:", strerror(e.errno))
 
+
+
+
+
+
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###     BYTE ARRAY  read   ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼\n")
 
 from os import strerror
@@ -583,6 +600,11 @@ try:
 except IOError as e:
     print("I/O error occurred:", strerror(e.errno))
 
+
+
+
+
+
 print("\n▼￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫  FILE PROCESSING   ----  ###     BYTE ARRAY  copying file   ###  ￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩▼")
 print("￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫    ###     C:\\PycharmProjects\\Py3\\py1.txt  >>>  py2.txt    ########\n")
 
@@ -593,6 +615,7 @@ print("￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫    ###     C:\\PycharmPr
 #  3. op sui files
 #  4. chiusura flussi con close()
 #
+
 
 
 from os import strerror
