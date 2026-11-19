@@ -188,10 +188,21 @@ print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  
 
 
 
+print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  linkedin game   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
+str1 = "ion"
+str2 = "rcne"
+str3 = "ypt"
 
+l1 = len(str2) - (len(str2)+1)
+st1 = ""
 
+for k in range(l1,-(len(str2)+1),-1):
+    st1 += str2[k]
+
+magic_word_is = st1+str3+str1
+print(f"(probably)FREE COFFEEEEEEEE!!!!!! >>>FYI the magic word is < {magic_word_is} >")
 
 
 
