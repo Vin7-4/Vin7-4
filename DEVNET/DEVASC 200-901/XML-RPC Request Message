@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <methodCall>
-    <methodName>examples.getStateName</methodName>
+    <methodName>examples.getStateNameRegIT</methodName>
     <params>
-        <param>  <value><i4>21</i4></value>
+        <param>  <value><i4>15</i4></value>
         </param>  </params>
 </methodCall>
 

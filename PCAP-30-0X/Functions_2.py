@@ -9,7 +9,7 @@
 
 
 
-print("----------2----------    FUNCTIONs  #2  -----------------2--------\n")
+print("ↂ----------2----------    FUNCTIONs  #2  -----------------2--------ↂ\n")
 
 
 
@@ -30,7 +30,7 @@ hello('Peppe', 'Filippo')
 
 
 
-print("----------2----------    FUNCTIONs  #2  -----------------2--------\n")
+print("ↂ----------2----------    FUNCTIONs  #2  -----------------2--------ↂ\n")
 
 
 
@@ -47,13 +47,25 @@ hello(kwarg1='Caleb', kwarg2='Sydney', kwarg3='Savannah')
 # Hello Savannah !
 
 
-print("----------2----------    FUNCTIONs  #2  -----------------2--------\n")
+
+
+
+print("\nↂ----------2----------    FUNCTIONs  #2  -----------------2--------ↂ\n")
 
 
 import math
 
+j = 0
+
 for name in dir(math):
     print(name, end="\t")
+
+
+
+
+
+
+print("\nↂ----------2----------    FUNCTIONs  #2  -----------------2--------ↂ\n")
 
 
 
