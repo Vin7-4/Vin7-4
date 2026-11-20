@@ -72,6 +72,7 @@
     <inspection_tool class="CyclomaticComplexityJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DebuggerStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DependenciesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DivideByZeroJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DockerFileAddOrCopyPaths" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DockerFileArgumentCount" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -159,6 +160,7 @@
     <inspection_tool class="FunctionWithInconsistentReturnsJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="FunctionWithMultipleLoopsJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="FunctionWithMultipleReturnPointsJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GitGraph" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="GrazieInspection" enabled="true" level="GRAMMAR_ERROR" enabled_by_default="true" />
     <inspection_tool class="GrazieInspectionRunner" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="GrazieStyle" enabled="false" level="STYLE_SUGGESTION" enabled_by_default="false" />
@@ -200,6 +202,7 @@
     <inspection_tool class="IfStatementWithTooManyBranchesJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="IgnoreFileDuplicateEntry" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="IncompatibleMaskJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="IncompleteProperty" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="InconsistentLineSeparators" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="IncorrectFormatting" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="IncorrectHttpHeaderInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -293,14 +296,20 @@
     <inspection_tool class="LossyEncoding" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="MagicNumberJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MaliciousLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MarkdownDuplicateLinkDefinition" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MarkdownIncorrectTableFormatting" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="MarkdownIncorrectlyNumberedListItem" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MarkdownLazyBlockQuoteContinuation" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="MarkdownLinkDestinationWithSpaces" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="MarkdownNoTableBorders" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MarkdownNonExistentInternetResource" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MarkdownOutdatedTableOfContents" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MarkdownSkillFrontMatter" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownTablePipeInCodeSpan" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MarkdownUnresolvedFileReference" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="MarkdownUnresolvedHeaderReference" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="MarkdownUnresolvedLinkLabel" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MarkdownUnusedLinkDefinition" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="NegatedConditionalExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="NegatedIfStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="NestedAssignmentJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -339,6 +348,7 @@
     <inspection_tool class="PyAssignmentToLoopOrWithParameterInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyAsyncCallInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyAttributeOutsideInitInspection" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
+    <inspection_tool class="PyAttrsDataclassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyAugmentAssignmentInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyBroadExceptionInspection" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
     <inspection_tool class="PyByteLiteralInspection" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -359,11 +369,14 @@
       </option>
     </inspection_tool>
     <inspection_tool class="PyDataclassInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyDataclassTransformInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyDecoratorInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyDefaultArgumentInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyDeprecationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyDictCreationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyDictDuplicateKeysInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyDisjointBaseInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDivisionByZeroInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyDocstringTypesInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyDunderSlotsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyEnumInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -372,6 +385,7 @@
     <inspection_tool class="PyFinalInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyFromFutureImportInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyGlobalUndefinedInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyGlobalVariableRedeclarationInNotebookInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyInconsistentIndentationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyInconsistentReturnsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyIncorrectDocstringInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -379,6 +393,7 @@
     <inspection_tool class="PyInterpreterInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyInvalidCastInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyInvalidEscapeSequenceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyLazyImportInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="PyListCreationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyMandatoryEncodingInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyMethodFirstArgAssignmentInspection" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -388,6 +403,8 @@
     <inspection_tool class="PyMissingConstructorInspection" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
     <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyMissingTypeHintsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMockPatchArgumentCountInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMockPatchTargetInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyNamedTupleInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNestedDecoratorsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNewStyleGenericSyntaxInspection" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -440,6 +457,7 @@
     <inspection_tool class="PySimplifyBooleanCheckInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PySingleQuotedDocstringInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyStatementEffectInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyStdlibDataclassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyStringConversionWithoutDunderMethodInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyStringFormatInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -454,9 +472,11 @@
     <inspection_tool class="PyTypeAliasRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyTypeHintsInspection" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="TEXT_STYLE_SUGGESTION" />
+    <inspection_tool class="PyTypeIgnoreWithoutCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyTypedDictInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyUnboundLocalVariableInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="PyUnhashableInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyUnknownIgnoreCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyUnnecessaryBackslashInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyUnnecessaryCastInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyUnreachableCodeInspection" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
@@ -467,8 +487,11 @@
         </list>
       </option>
     </inspection_tool>
+    <inspection_tool class="PyUnusedFunctionInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyUnusedImportsInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO" />
     <inspection_tool class="PyUnusedLocalInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyUnusedLocalVariableInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyUnusedParameterInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyVarianceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyVulnerableApiCodeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="QodanaSanity" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -499,6 +522,11 @@
     <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="ShiftOutOfRangeJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SillyAssignmentJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpecificationAmbiguity" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpecificationCognitiveLoad" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpecificationContradiction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpecificationSecurity" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpecificationSemanticCoverage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="SpellCheckingInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
       <option name="processCode" value="true" />
       <option name="processLiterals" value="true" />
@@ -516,6 +544,7 @@
     <inspection_tool class="TailRecursionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TaskProblemsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="TextLabelInSwitchStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ThemeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ThisExpressionReferencesGlobalObjectJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ThreeNegationsPerFunctionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ThrowFromFinallyBlockJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -542,6 +571,7 @@
     <inspection_tool class="TypeScriptUnresolvedReference" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="TypeScriptValidateGenericTypes" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="TypeScriptValidateTypes" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="UndeclaredGeneric" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UndefinedNestedVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryContinueJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryLabelJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -552,7 +582,9 @@
     <inspection_tool class="UnreachableCodeJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnresolvedReference" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="UnsatisfiedRequirementInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnsupportedDirective" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="UnterminatedStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnusedAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedCatchParameterJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedDefine" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedProperty" enabled="true" level="WARNING" enabled_by_default="true" />

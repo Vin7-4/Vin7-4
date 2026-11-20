@@ -157,6 +157,7 @@ print("c3 = ", c3)
 
 
 
+
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  set   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
@@ -176,6 +177,7 @@ print("True & False = ", True & False)
 
 
 
+
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  set   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
@@ -185,6 +187,8 @@ print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  
 #     print(string)
 #
 # print('Done!')
+
+
 
 
 
@@ -202,13 +206,14 @@ for k in range(l1,-(len(str2)+1),-1):
     st1 += str2[k]
 
 magic_word_is = st1+str3+str1
-print(f"(probably)FREE COFFEEEEEEEE!!!!!! >>>FYI the magic word is < {magic_word_is} >")
+
+print(f"(probably)FREE COFFEEEEEEEE!!!!!! >>> FYI the magic word is < {magic_word_is} >")
 
 
 
 
 
-
+print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
 
