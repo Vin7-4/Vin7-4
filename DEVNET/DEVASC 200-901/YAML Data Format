@@ -1,0 +1,20 @@
+---
+home:
+- this is my house
+- located in nowhere land
+- making all my nowhere plans
+- for nobody
+garage box: 'true'
+garden:
+  - flowers": 'true'
+  - fountain": 'true'
+  - small_pathway: 'true'
+rooms:
+     living_room: 'true'
+     kitchen: 'false'
+     study_room:
+       - size: 20x30
+       - window: true
+       - door: 'Opened'
+       - desk: 'true'
+       - lights: 'On'

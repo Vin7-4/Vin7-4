@@ -1,8 +1,9 @@
-##########################################################
 
-#                            TEST CODE utile
+#######################################################################################################
 
-##############################################################
+#                                               TEST CODE utile
+
+######################################################################################################
 
 
 
@@ -25,6 +26,8 @@
 # w1.mainloop()
 # sleep(1)
 # w1.quit()
+
+
 
 
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫------------------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
@@ -53,6 +56,9 @@ print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫------------------�
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T    ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
+
+
+
 # t1 = "C:\\CPY_SAVES\\Pylog.txt"
 
 str1 = [1,2,3,4]
@@ -65,7 +71,10 @@ print(str1.count(3))
 
 
 
+
+
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T    ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
 
 
 
@@ -80,7 +89,11 @@ print(f"\ndata, giorno e ora : {time.ctime(h1)}")
 
 
 
+
+
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T    ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
+
 
 
 print('test')
@@ -98,7 +111,13 @@ print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  
 # device.close()
 
 
-print("------------LAB 3---------\n")
+
+
+
+print("----------￫￫￫￫￫￫￫￫￫--￫￫￫￫￫￫￫￫￫￫￫￫     LAB 3     ￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫---------\n")
+
+
+
 
 l1 = ["A", "B", "C"]
 
@@ -130,7 +149,13 @@ print("lista l3 finale (con l3 = l2): ", l3)  # lista l3 finale :  []
 
 
 
-print("\n------------                  LAB 3                ---------\n")
+
+
+
+print("----------￫￫￫￫￫￫￫￫￫--￫￫￫￫￫￫￫￫￫￫￫￫     LAB 3     ￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫￫---------\n")
+
+
+
 
 
 
@@ -144,7 +169,11 @@ print(tup1[3])
 
 
 
+
+
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  assegnazione fast a var  ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
+
 
 
 
@@ -158,7 +187,11 @@ print("c3 = ", c3)
 
 
 
+
+
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  set   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
+
 
 
 set1 = {1, 4, "b", False, 'f',5}
@@ -181,6 +214,8 @@ print("True & False = ", True & False)
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  set   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
 
 
+
+
 # while True:
 #     string = input('Enter some text to print. \nType "done" to quit>')
 #     if string == 'done': break
@@ -193,6 +228,7 @@ print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  
 
 
 print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  linkedin game   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
 
 
 str1 = "ion"
@@ -213,19 +249,41 @@ print(f"(probably)FREE COFFEEEEEEEE!!!!!! >>> FYI the magic word is < {magic_wor
 
 
 
-print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T   ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+
+print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  yaml ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+print("\n >>>>    il package di yaml è  | pyyaml |\n")
+
+import yaml
+
+with open("C:\\PycharmProjects\\Py3\\yaml1.yaml") as data :
+         file1 = data.read()
+
+yaml_dict = yaml.load(file1, Loader=yaml.FullLoader)
+
+print(yaml_dict)
+data.close()
 
 
 
 
 
 
+print("\n▼↻------￫￫￫￫￫￫￫￫￫￫￫￫￫---------  T  E  S  T  xml ---------￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩￩------↺▼\n")
+print("\n >>>>    il package di xml è  | pyxml3 |")
+print(" >>>>    package conversione py3 <> xml     è  |    xmltodict    |\n")
 
 
 
 
+import xmltodict
 
+with open("C:\\PycharmProjects\\Py3\\x2.xml") as x :   #    solita lettura e piazza in var x
+     y  = x.read()                 #  leggi come file stringa gestibile da py3
 
+dict_xml = xmltodict.parse(y)
+
+print(f"\nEsempio print xml file : \n{dict_xml}")
+x.close()
 
 
 

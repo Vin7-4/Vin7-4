@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.14 (PythonProject)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="~\AppData\Local\Python\pythoncore-3.14-64\python.exe" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="C:\Python315\python.exe" project-jdk-type="Python SDK" />
   <component name="PyPackaging">
     <option name="earlyReleasesAsUpgrades" value="true" />
   </component>

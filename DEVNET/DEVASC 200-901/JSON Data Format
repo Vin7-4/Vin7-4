@@ -1,0 +1,35 @@
+// comment lines non incluse ma permesse
+
+/*
+    Stessa cosa per
+    i block comments
+    (red underlined)
+*/
+
+
+{
+  "_nota-comment": "COMMENTS WORKAROUND // --> notes o comment qui  <-- ",
+  "_nota": "COMMENTS WORKAROUND  // notes o comment qui  <-- qualsiasi termine >> DEVE esserci il trattino basso",
+  "_comment": "  --> notes o comment qui COMMENTS WORKAROUND ",
+  "_prologo": "COMMENTS WORKAROUND   --> notes o comment qui  <-- ",
+  "home": [  "this is my house", "located in nowhere land", "making all my nowhere plans", "for nobody"  ],
+  "garage box": true,
+  "garden":
+          [ {"flowers": true},
+            {"fountain":  true}],
+  "rooms": {
+    "living_room": "true",
+    "kitchen": "false",
+    "study_room":
+      [ {  "size": "20x30"  },
+
+      {  "desk": true  },
+      {  "window": true  },
+      {  "door": "Opened"  },
+
+      {  "lights": "On"  }  ]
+  }
+}
+
+
+

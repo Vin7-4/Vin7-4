@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Questo è un esempio
+    di block comment
+    riga esempio 1
+    ......
+    ......
+    riga esempio 2
+-->
+<root>
+    <home>this is my house</home>   ~ comment
+    <home>located in Italy</home>
+    <rooms>
+        <living_room>true</living_room>
+        <kitchen>false</kitchen>
+        <study_room>
+            <size>20x30</size>
+        </study_room>
+        <study_room>
+<!--
+    Questo è un esempio
+    di block comment
+      <<< .... ..  ...    >>>>
+-->
+            <desk>true</desk>   ~ comment
+        </study_room>
+        <study_room>
+            <lights>On</lights>
+        </study_room>
+    </rooms>   ~ comment
+</root>
