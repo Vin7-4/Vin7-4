@@ -505,6 +505,7 @@ any_list = [1, 2, 3, 4]
 even_list = list(map(lambda j: j + 1 if j % 2 == 0 else j, any_list))  # soluzione mia
 print('Val con map(lambda j: j+1 if j%2==0 else j, any_list) : ', even_list)
 
+
 even_list2 = list(map(lambda n: n | 1, any_list))  # soluzione lab corso online pyInstitute
 print('\n(Soluzione PyInstitute)--- Val con map(lambda n: n | 1, any_list) : ', even_list2)
 #  Morale della favola : con lambda n: n | 1 si setta l'ultimo bit a 1 solo se è 0
